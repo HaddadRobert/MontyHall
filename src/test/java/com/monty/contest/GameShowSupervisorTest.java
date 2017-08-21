@@ -32,16 +32,6 @@ public class GameShowSupervisorTest {
         assertTrue(moneyBox.size() == 1);
     }
 
-//    @Test
-//    public void testGiveUsTheMoneyBox() {
-//        GameShowSupervisor gameShowSupervisor = new GameShowSupervisor();
-//        gameShowSupervisor.deployBoxes();
-//
-//        Box box = gameShowSupervisor.tellCorrectBox();
-//
-//        assertTrue(box.containsMoney());
-//    }
-
     @Test
     public void testGiveUsTheReaminingBoxNumbers() {
         GameShowSupervisor gameShowSupervisor = new GameShowSupervisor();
